@@ -78,8 +78,6 @@ target_precompile_headers(raw_pdb
     PDB_PCH.h
 )
 
-add_subdirectory(Examples)
-
 if (UNIX)
 	include(GNUInstallDirs)
 
